@@ -1,0 +1,90 @@
+Commands 
+
+
+1.ls - It is used to display the names of files and directories.
+   syntax - ls [options] [File/Directory Name]
+
+   Options -   [..] - Prints content of home folder
+                [../..] - Prints Contents of root folder
+	[ d ] - List only Directories
+                [ l ] - Prints Files Directory in Long format
+	[ a ] - Prints Hidden files also
+	[ al ] - Prints in long list along with Hidden files also
+	[ lS ] - Prints in long list along in the sorted manner of deceasing file size
+	[ lS > file.txt ] - Print the result of ls command in file.txt (in case file isnt created it will create one)
+
+2.cd - It is used to chage the directories
+   syntax - cd [options]
+
+   options -    [ / ] - brings to root folder
+	[ ~ ] - brings to home directory
+	[ /Downloads/Books] - Brings to Books Directory
+	[ /Downloads "My Books" Or /Downloads 'My Books' Or /Downloads /My\ Books ] - Brings to My books directory
+
+3.pwd - Prints the address of the current directory.
+    syntax - pwd [options] 
+ 
+4.cat - It reads data from the file and gives their content as output. It allows us to create single or multiple files, concatenate files and redirect it on terminal.
+    syntax - cat [option] [File name]
+
+Touch- it is used to create, change and modify timestamps of a file 
+ 
+     synatx- touch file_name
+  
+5.Head- read the first ten lines of any given file name…
+
+    syntax- head [options] [file_name]
+
+
+6.Tail- display the last ten lines of any text file….
+    syntax- tail [options] [file_name]
+ 
+7.Nano- 1. opening and creating files
+      syntax- nano file_name
+      
+      2. saving and exiting file
+       syntax- ctrl+o for saving and ctrl + x for exiting
+      
+      3. cutting and pasting
+        syntax- To cut a single line, you use Ctrl + K (hold down Ctrl and then press K). The line disappears. To paste it, you simply move the cursor to where you want to paste it and                 punch Ctrl + U. The line reappears. To move multiple lines, simply cut them with several Ctrl + K in a row, then paste them with a single Ctrl + U. The whole paragraph                       appears wherever you want it.
+     
+8.gedit- If the file is not found, gedit will open a blank file with the file name entered on the command line:
+       To open a specific file: gedit filename.
+       To open multiple files: gedit file1 file2.     
+
+9.chmod- The chmod command lets you change the access permissions of files and folders.
+
+       synatx-
+               chmod [options] mode[,mode] file1 [file2 ...]
+
+10.chown- The chown command is used to change the user and group ownership of a given file, directory or link
+
+      synatx-chown [OPTIONS] USER[:GROUP] FILE(s)
+
+
+11.grep- The grep command which stands for “global regular expression print,” processes text line by line and prints any lines which match a specified pattern. The grep command is used to       search text or searches the given file for lines containing a match to the given strings or words.
+   
+      syntax- grep [options] pattern [files]
+
+12.mkdir- The mkdir command in UNIX allows users to create directories or folders as they are referred to in some operating systems. The mkdir command can create multiple directories at once        and also set permissions when creating the directory. 
+
+      syntax- mkdir [options...] [directories ...]
+
+13.which-  which ( used to find/loacate a file in a directory or its subdirectories )
+
+
+14.cp-    cp is a Linux shell command to copy files and directories.
+  
+      synatx- $ cp [options] source dest
+
+15.mv- mv command is used to move files and directories.
+
+     synatx- $ mv [options] source dest.
+
+16.rm- rm command is used to delete or remove files and directory in UNIX like operating system. 
+
+     synatx-   rm [OPTION]... FILE..
+
+17.rmdir-  The rmdir command removes each and every directory specified in the command line only if these directories are empty.
+
+     synatx- rmdir [-p] [-v | –verbose] [–ignore-fail-on-non-empty] directories …                                        
